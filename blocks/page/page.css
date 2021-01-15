@@ -18,6 +18,11 @@ body {
     overflow: hidden;
 }
 
+@media screen and (max-width: 1023px) {
+    .page{
+     width: auto;
+    }
+  }
 
 .small-wrapper {
     max-width: 984px;
