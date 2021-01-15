@@ -1,0 +1,16 @@
+.place__text {
+    width: 100%;
+    max-width: 484px;
+}
+
+@media screen and (max-width: 768px) {
+    .place__text {
+      justify-content: start;
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+    .place__text {
+      width: 100%;
+    }
+  }
