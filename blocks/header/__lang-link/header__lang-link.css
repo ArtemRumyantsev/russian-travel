@@ -1,0 +1,7 @@
+.header__lang-link {
+  color: white;
+  text-decoration: none;
+  padding-left: 18px;
+  opacity: 1;
+  transition: opacity 0.2s linear;
+}
