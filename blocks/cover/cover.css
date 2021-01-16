@@ -44,7 +44,13 @@
   
   @media screen and (max-width: 425px) {
     .cover { 
+      height: 200px;
       margin-top: 16px;
       margin-bottom: 64px;
+      padding: 33px 0px;
+      margin-left: -48px;
+      margin-right: -48px;
+      background-size: 100%;
+     background-repeat: no-repeat;
     }
   }
