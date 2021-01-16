@@ -6,3 +6,17 @@
     margin: 28px auto;
     color: white;
 }
+
+@media screen and (max-width: 768px) {
+    .page__container { 
+      width: auto;
+      min-width: auto;
+    }
+  }
+
+  @media screen and (max-width: 320x) {
+    .page__container { 
+      width: auto;
+      min-width: auto;
+    }
+  }
