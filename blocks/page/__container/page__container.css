@@ -14,7 +14,7 @@
     }
   }
 
-  @media screen and (max-width: 320x) {
+  @media screen and (max-width: 320px) {
     .page__container { 
       width: auto;
       min-width: auto;
