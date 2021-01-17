@@ -1,3 +1,14 @@
 .place + .place {
     margin-top: 80px;
 }
+
+@media screen and (max-width: 768px) {
+    .place + .place {
+        margin-top: 73px;
+    }
+}
+@media screen and (max-width: 424px) {
+    .place + .place {
+        margin-top: 50px;
+    }
+}

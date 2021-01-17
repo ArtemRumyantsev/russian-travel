@@ -2,11 +2,15 @@
     align-self: flex-end;
 }
 
+@media screen and (max-width: 520px) {
+  .place__url {
+    align-self: flex-start;
+  }
+}
+
 
 @media screen and (max-width: 424px) {
     .place__url {
-      align-self: flex-start;
       padding-top: 32px;
-      padding-bottom: 32px;
     }
   }

@@ -6,8 +6,16 @@
     justify-content: space-between;
     flex-direction: row;
     box-sizing: border-box;
+    margin-bottom: 56px;
 }
 
+
+@media screen and (max-width: 1024px) {
+  .header{
+   width: auto;
+   margin-bottom: 48px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .header {
@@ -18,13 +26,7 @@
 
 @media screen and (max-width: 425px) {
   .header {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .header{
-   width: auto;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }

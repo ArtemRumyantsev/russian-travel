@@ -8,13 +8,21 @@
 
 @media screen and (max-width: 768px) {
     .place__block {
-      margin-bottom: 72px;
+      margin-bottom: 48px;
     }
   }
   
   @media screen and (max-width: 520px) {
+    .place__block:last-child {
+      margin-top: 0px;
+    }
     .place__block {
       flex-direction: column;
       width: 100%;
+      margin-bottom: 32px;
+      justify-content: flex-start;
+    }
+    .place__block:first-child {
+      margin-top: 32px;
     }
   }
