@@ -20,7 +20,6 @@
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(6, 1fr);
       gap: 16px;
-      padding: 88px 0px;
       margin-bottom: 88px;
     }
   }
@@ -31,6 +30,6 @@
       grid-template-rows: repeat(12, 1fr);
       gap: 12px;
       padding: 64px 0px;
-      margin-bottom: 64px;
+      margin: 0px;
     }
   }
