@@ -16,6 +16,7 @@
 
   @media screen and (max-width: 320px) {
     .page__container { 
+      margin: 16px auto;
       padding: 0 16px;
     }
   }
