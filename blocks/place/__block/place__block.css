@@ -19,7 +19,6 @@
     .place__block {
       flex-direction: column;
       width: 100%;
-      margin-bottom: 32px;
       justify-content: flex-start;
     }
     .place__block:first-child {
