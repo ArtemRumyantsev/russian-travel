@@ -20,8 +20,3 @@
     }
   }
   
-  @media screen and (max-width: 520px) {
-    .place__text {
-      width: 100%;
-    }
-  }

@@ -11,6 +11,11 @@
     transition: opacity 0.2s linear;
   }
 
+  .footer__link:hover {
+    opacity: 0.8;
+  }
+  
+
   @media screen and (max-width: 700px) {
     .footer__link { 
       font-size: 24px;

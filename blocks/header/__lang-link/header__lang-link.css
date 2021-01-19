@@ -5,3 +5,7 @@
   opacity: 1;
   transition: opacity 0.2s linear;
 }
+
+.header__lang-link:hover {
+  opacity: 0.8;
+}
