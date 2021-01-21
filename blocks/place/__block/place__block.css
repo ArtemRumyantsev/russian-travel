@@ -22,6 +22,7 @@
       justify-content: flex-start;
     }
     .place__block:first-child {
-      margin-top: 32px;
+      margin-top: 64px;
+      margin-bottom: 32px;
     }
   }

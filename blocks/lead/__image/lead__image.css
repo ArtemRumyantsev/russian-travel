@@ -19,6 +19,12 @@
     }
 }
 
+@media screen and (max-width: 470px) {
+    .lead__image {
+        width: calc(100% + 32px);
+    }
+}
+
 
 @media screen and (max-width: 424px) {
     .lead__image {

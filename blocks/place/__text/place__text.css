@@ -11,12 +11,17 @@
 @media screen and (max-width: 768px) {
   .place__text {
     max-width: 352px;
+    justify-content: start;
+    
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
     .place__text {
-      justify-content: start;
+      max-width: 288px;
     }
   }
+  
+
+ 
   

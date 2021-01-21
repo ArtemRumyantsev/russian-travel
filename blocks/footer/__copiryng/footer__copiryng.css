@@ -9,10 +9,18 @@
   } 
 
   @media screen and (max-width: 700px) {
-    .footer__copyright { 
+    .footer__copiryng { 
       line-height: 14px;
     }
   }
+
+
+  @media screen and (max-width: 320px) {
+    .footer__copiryng { 
+      margin-top: 16px;
+    }
+  }
+
 
 
   
