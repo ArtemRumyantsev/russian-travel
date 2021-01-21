@@ -10,6 +10,7 @@
     text-transform: uppercase;
 }
 
+  
 @media screen and (max-width: 768px) {
     .place__url-heading {
       margin-top: 0px;
