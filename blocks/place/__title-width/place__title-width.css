@@ -4,3 +4,10 @@
       display: inline-block;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .place__title-width {
+      max-width: 330px;
+      display: inline-block;
+    }
+  }
