@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 470px) {
     .lead__image {
-        width: calc(100% +48px);
+        width: calc(100% + 48px);
     }
 }
 
