@@ -26,3 +26,11 @@
       margin-bottom: 32px;
     }
   }
+
+  @media screen and (max-width: 650px) {
+    .place__block {
+      flex-direction: column;
+      width: 100%;
+      justify-content: flex-start;
+    }
+  }
