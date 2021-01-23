@@ -7,6 +7,13 @@
         margin-top: 73px;
     }
 }
+
+@media screen and (max-width: 520px) {
+    .place:first-child {
+      margin-top: 64px;
+    }
+  }
+
 @media screen and (max-width: 424px) {
     .place + .place {
         margin-top: 50px;

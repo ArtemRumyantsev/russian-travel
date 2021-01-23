@@ -12,25 +12,21 @@
     }
   }
   
-  @media screen and (max-width: 520px) {
-    .place__block:last-child {
-      margin-top: 0px;
-    }
-    .place__block {
-      flex-direction: column;
-      width: 100%;
-      justify-content: flex-start;
-    }
-    .place__block:first-child {
-      margin-top: 64px;
-      margin-bottom: 32px;
-    }
-  }
-
   @media screen and (max-width: 650px) {
     .place__block {
       flex-direction: column;
       width: 100%;
       justify-content: flex-start;
+    }
+  }
+
+  @media screen and (max-width: 520px) {
+    .place__block:last-child {
+      margin-top: 0px;
+    }
+    
+    .place__block:first-child {
+      margin-top: 50px;
+      margin-bottom: 32px;
     }
   }

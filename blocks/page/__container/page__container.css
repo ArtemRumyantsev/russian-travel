@@ -3,7 +3,10 @@
     min-width: 320px;
     width: auto;
     padding: 0 48px;
-    margin: 28px auto;
+    margin-top: 28px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
     color: white;
 }
 
@@ -16,7 +19,8 @@
 
   @media screen and (max-width: 320px) {
     .page__container { 
-      margin: 16px auto;
+      margin-top: 16px;
+      margin-bottom: 24px;
       padding: 0 16px;
     }
   }
